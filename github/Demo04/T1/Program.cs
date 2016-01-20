@@ -13,8 +13,8 @@ namespace T1
             Lift lift = new Lift();
             while(true)
             {
-                Console.WriteLine("The elevator is now in {0} floor: ", lift.Floor);
-                Console.WriteLine("Give a new floor number (1-5) > ");
+                Console.WriteLine("The elevator is now in {0} floor ", lift.Floor);
+                Console.Write("Give a new floor number (1-5) > ");
                 lift.Floor = int.Parse(Console.ReadLine());
             }
         }
