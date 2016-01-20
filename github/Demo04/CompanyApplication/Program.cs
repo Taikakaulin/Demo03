@@ -10,6 +10,12 @@ namespace CompanyApplication
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+            employee.FirstName = "Pekka";
+            employee.LastName = "Pekkanen";
+            employee.Profession = "Teacher";
+            employee.Profession = 2000;
+
         }
     }
 }
