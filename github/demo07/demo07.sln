@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo07", "demo07\demo07.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbApp", "NumbApp\NumbApp.csproj", "{6FB1E5C3-B8C6-46AB-B5E8-9B0C746B0FFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVApp", "TVApp\TVApp.csproj", "{623822CC-93FC-4EA5-9F90-ABE9C187E74A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6FB1E5C3-B8C6-46AB-B5E8-9B0C746B0FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB1E5C3-B8C6-46AB-B5E8-9B0C746B0FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB1E5C3-B8C6-46AB-B5E8-9B0C746B0FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623822CC-93FC-4EA5-9F90-ABE9C187E74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623822CC-93FC-4EA5-9F90-ABE9C187E74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623822CC-93FC-4EA5-9F90-ABE9C187E74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623822CC-93FC-4EA5-9F90-ABE9C187E74A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
