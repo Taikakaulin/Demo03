@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TVApp
 {
+    [Serializable]
     class Shows
     {
         public string Name { get; set; }
@@ -18,7 +19,10 @@ namespace TVApp
         { 
         }
 
-        
+        public override string ToString()
+        {
+            return Name + " " + Channel + " " + Start + " " + End + " " + Info;
+        }
 
 
     }
