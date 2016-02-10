@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Shopping.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shopping"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="800"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <CheckBox x:Name="Milk" Content="Milk"/>
+            <CheckBox x:Name="Butter" Content="Butter"/>
+            <CheckBox x:Name="Beer" Content="Beer"/>
+            <CheckBox x:Name="Chicken" Content="Chicken"/>
+            <CheckBox x:Name="Lemonade" Content="Lemonade"/>
+            <Button x:Name="BuyingButton"  Content="Buy" Click="BuyingButton_Click"/>
+            <TextBlock Text="Shopping list:"/>
+            <TextBox x:Name="List" Height="100" />
+        </StackPanel>
+
+    </Grid>
+</Page>
